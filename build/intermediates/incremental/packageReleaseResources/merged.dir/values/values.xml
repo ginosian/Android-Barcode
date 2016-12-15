@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="black12">#1F000000</color>
+    <color name="black38">#61000000</color>
+    <color name="black54">#8A000000</color>
+    <color name="black87">#DE000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="white">#ffffff</color>
+    <color name="white12">#1FFFFFFF</color>
+    <color name="white50">#80FFFFFF</color>
+    <color name="white70">#B3FFFFFF</color>
+    <declare-styleable name="BarcodeEditText"><attr format="enum" name="barcode_theme">
+            <enum name="black" value="0"/>
+            <enum name="white" value="1"/>
+        </attr></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="annotation_adding_content_height">300dp</dimen>
+    <dimen name="button_height_huge">100dp</dimen>
+    <dimen name="button_height_normal">48dp</dimen>
+    <dimen name="button_height_short">32dp</dimen>
+    <dimen name="button_height_tall">60dp</dimen>
+    <dimen name="font_huge">28sp</dimen>
+    <dimen name="font_large">18sp</dimen>
+    <dimen name="font_larger">22sp</dimen>
+    <dimen name="font_normal">15sp</dimen>
+    <dimen name="font_small">12sp</dimen>
+    <dimen name="hint_top_offset">15dp</dimen>
+    <dimen name="hint_width_normal">100dp</dimen>
+    <dimen name="note_triangle_left_offset">24dp</dimen>
+    <dimen name="spacing_huge">48dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_normal">16dp</dimen>
+    <dimen name="spacing_small">12dp</dimen>
+    <dimen name="spacing_tiny">4dp</dimen>
+    <string name="activity.label.barcodereader">Barcode Reader</string>
+    <string name="app_name">barcode</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="barcode_error">"Error reading barcode: %1$s"</string>
+    <string name="barcode_failure">No barcode captured</string>
+    <string name="barcode_header">Click "Read Barcode" to read a barcode</string>
+    <string name="barcode_success">Barcode read successfully</string>
+    <string name="button.name.continue">Continue</string>
+    <string name="button.name.try.again">Try Again</string>
+    <string name="label.scan_barcode">Scan a barcode</string>
+    <string name="low_storage_error">Face detector dependencies cannot be downloaded due to low device storage</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="read_barcode">Read Barcode</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_main">Barcode Reader Sample</string>
+    <string name="use_flash">Use Flash</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="Fullscreen.Dialog" parent="android:Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+</resources>

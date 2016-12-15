@@ -1,0 +1,2 @@
+D com/margin/barcode/camera/CameraSource$FlashMode
+D com/margin/barcode/camera/CameraSource$FocusMode

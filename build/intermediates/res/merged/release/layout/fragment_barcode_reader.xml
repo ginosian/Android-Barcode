@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/barcode_number" />
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@id/barcode_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttons_layout"
+        android:layout_margin="@dimen/spacing_normal"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:id="@id/buttons_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/try_again_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_small"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/button.name.try.again"
+            android:textSize="@dimen/font_large" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/continue_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/spacing_small"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/button.name.continue"
+            android:textSize="@dimen/font_large" />
+    </LinearLayout>
+
+</RelativeLayout>

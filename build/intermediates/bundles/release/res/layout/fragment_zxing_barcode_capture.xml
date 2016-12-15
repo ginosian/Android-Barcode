@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <me.dm7.barcodescanner.zxing.ZXingScannerView
+        android:id="@+id/scanner_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/close_button"
+        android:layout_width="@dimen/button_height_normal"
+        android:layout_height="@dimen/button_height_normal"
+        android:layout_alignParentStart="true"
+        android:layout_margin="@dimen/spacing_normal"
+        android:contentDescription="@null"
+        android:padding="@dimen/spacing_tiny"
+        android:src="@drawable/clear_button_icon_white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black54"
+        android:gravity="center"
+        android:text="@string/label.scan_barcode"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
